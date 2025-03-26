@@ -28,6 +28,6 @@ else:
     if age < 18:
         print(f"Price: {ticket_price * 0.5}")
     elif age > 65:
-        print(f"Price: {ticket_price * 0.2}")
+        print(f"Price: {ticket_price * 0.7}")
     else:
         print(f"Price: {ticket_price}")
