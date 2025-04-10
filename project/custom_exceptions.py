@@ -1,0 +1,2 @@
+class DogNotFoundException(Exception):
+    pass
