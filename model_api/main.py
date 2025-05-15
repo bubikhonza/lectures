@@ -68,6 +68,7 @@ def get_models():
 
 @app.get("/models/{model_name}")
 def get_model_info(model_name: str):
+    # TODO: implement
     return {"name": model_name, "something": 20}
 
 if __name__ == "__main__":
